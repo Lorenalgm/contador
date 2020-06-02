@@ -33,8 +33,10 @@
 # Desafio
 Seu desafio é criar um contador (com dias, horas, minutos e segundos), a partir de uma data definida pelo usuário! O modelo final está disponível na pasta "design"
 
-<img src="https://i.ibb.co/W61zRj3/Mac-Book-2-1.png" width="580" height="380">
-<img src="https://i.ibb.co/FYcxTVj/Mac-Book-1.png" width="580" height="380">
+
+
+<img src="https://i.ibb.co/HhNTTzB/mockuper-6.png" width="450" height="350">
+<img src="https://i.ibb.co/9cMFW5s/mockuper-7.png" width="450" height="350">
 
 # Techs: 
 Javascript<br>
