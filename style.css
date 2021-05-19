@@ -14,10 +14,9 @@ a {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
-  
 }
 
-body{
+body {
   background-color: #141414;
 }
 
@@ -27,7 +26,6 @@ body{
   justify-content: space-between;
   max-width: 90%;
   height: 150px;
-  background-color: white;
   margin: 0 auto;
   margin-top: 2rem;
   font-size: 3rem;
@@ -59,9 +57,11 @@ body{
   margin-top: 10rem;
   flex-wrap: wrap;
   max-width: 90%;
+  margin: 0 auto;
+  margin-top: 5rem;
 }
 
 .hora {
-  color: white;
+  color: #e6e5e5;
   font-size: 5rem;
 }
