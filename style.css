@@ -15,8 +15,9 @@ a {
   padding: 0px;
   text-decoration: none;
 }
+
 body {
-  background-color: black;
+  background-color: #141414;
 }
 
 .header-container {
@@ -46,7 +47,7 @@ body {
 }
 
 .botao {
-  color: black;
+  color: #e6e5e5;
   font-size: 3rem;
 }
 
