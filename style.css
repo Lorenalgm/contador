@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
 html {
   font-size: 62.5%;
+  font-family: "Roboto";
 }
 
 body,
@@ -20,6 +23,8 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 90%;
+  height: 150px;
+  background-color: white;
   margin: 0 auto;
   margin-top: 2rem;
   font-size: 3rem;
@@ -43,4 +48,17 @@ a {
 .botao {
   color: black;
   font-size: 3rem;
+}
+
+.container-contador {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  flex-wrap: wrap;
+  max-width: 90%;
+}
+
+.hora {
+  color: white;
+  font-size: 5rem;
 }
