@@ -9,17 +9,6 @@
 </head>
 <body>
   <header class="header-container">
-<<<<<<< HEAD:contador.html
-    <div>
-      <a href="" class="logo">LOGO</a>
-    </div>
-    <div class="container-reiniciar">
-      <a class="botao">REINICIAR</a>
-    </div>
-  </header>
-
-  <section class="container-contador"><p class="hora">FALTAM</p></section>
-=======
     <div><a href="" class="logo">LOGO</a></div>
 
     <div class="container-reiniciar">
@@ -35,7 +24,6 @@
   <section class="container-contador">
     <p class="hora">TESTANDO A HORA</p>
   </section>
->>>>>>> aaa8b0b6c3d3abb2e9db887eb524af1bc6a50201:index.html
 
 </body>
 </html>
