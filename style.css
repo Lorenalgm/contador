@@ -24,8 +24,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   max-width: 90%;
-  height: 150px;
+  height: 100px;
   margin: 0 auto;
   margin-top: 2rem;
   font-size: 3rem;
@@ -47,21 +48,44 @@ body {
 }
 
 .botao {
-  color: #e6e5e5;
+  color: #141414;
   font-size: 3rem;
 }
 
 .container-contador {
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
+  align-items: center;
   flex-wrap: wrap;
   max-width: 90%;
   margin: 0 auto;
   margin-top: 5rem;
 }
 
-.hora {
+.countdown {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.time h2 {
+  margin: 0 0 5px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.tempos {
   color: #e6e5e5;
   font-size: 5rem;
+}
+
+.abaixo-tempos {
+  font-size: 2rem;
+  color: #21eb00;
 }
