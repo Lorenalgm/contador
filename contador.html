@@ -15,7 +15,7 @@
       <a href="#" class="logo">Contador</a>
     </div>
     <div class="container-reiniciar">
-      <a href="#" class="botao">Reiniciar</a>
+      <a href="index.html" class="botao">Reiniciar</a>
     </div>
   </header>
 
@@ -23,27 +23,32 @@
     <p class="tempos">Faltam</p>
   </section>
 
-  <section class="countdown">
+  <section class="countdown" id="countdown">
     <div class="time">
-      <h2 class="tempos">00</h2>
+      <h2 class="tempos" id="dias">00</h2>
       <small class="abaixo-tempos">dias</small>
     </div>
 
     <div class="time">
-      <h2 class="tempos">00</h2>
+      <h2 class="tempos" id="horas">00</h2>
       <small class="abaixo-tempos">horas</small>
     </div>
 
     <div class="time">
-      <h2 class="tempos">00</h2>
+      <h2 class="tempos" id="minutos">00</h2>
       <small class="abaixo-tempos">minutos</small>
     </div>
 
     <div class="time">
-      <h2 class="tempos">00</h2>
+      <h2 class="tempos" id="segundos">00</h2>
       <small class="abaixo-tempos">segundos</small>
     </div>
   </section>
+
+  <div class="spinner" id="spinner"></div>
+  
+
+  <script src="script.js"></script>
 
 </body>
 </html>

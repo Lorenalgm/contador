@@ -52,6 +52,10 @@ body {
   font-size: 3rem;
 }
 
+.botao:hover {
+  color: white;
+}
+
 .container-contador {
   display: flex;
   justify-content: center;
@@ -63,7 +67,7 @@ body {
 }
 
 .countdown {
-  display: flex;
+  display: none;
   justify-content: center;
   margin-top: 5rem;
 }
@@ -92,7 +96,7 @@ body {
 
 /* INDEX HTML */
 
-.content{
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,17 +105,17 @@ body {
   line-height: 80px;
 }
 
-.content h1{
-  color:#21eb00;
+.content h1 {
+  color: #21eb00;
   font-size: 40px;
 }
 
-.content label{
-  color:#e6e5e5;
-  font-size:16px;
+.content label {
+  color: #e6e5e5;
+  font-size: 16px;
 }
 
-.content form{
+.content form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,30 +124,47 @@ body {
 }
 
 .content form button {
-  padding:15px;
+  padding: 15px;
   height: 60px;
   border-radius: 20px;
-  background-color: #1cbb04;
+  background-color: #21eb00;
   text-align: center;
-  border:none;
+  border: none;
   font-weight: bold;
-  font-size:25px;
-  width:100%;
-  cursor:pointer;
+  font-size: 25px;
+  width: 100%;
+  cursor: pointer;
 }
 
-.content form button:hover{
-  background-color: #3bff1d;
-  color:#ffffff;
+.content form button:hover {
+  background-color: #21eb00;
+  color: #ffffff;
 }
 
-.content input{
-  margin-bottom:30px;
-  padding:15px;
-  width:100%;
+.content input {
+  margin-bottom: 30px;
+  padding: 15px;
+  width: 100%;
   border-radius: 20px;
   outline: 0;
   background-color: #2f2e2e;
-  border:none;
-  COLOR:WHITE;
+  border: none;
+  color: WHITE;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 10px solid #21eb00;
+  border-radius: 50%;
+  border-top-color: transparent;
+  margin: 0 auto;
+  animation: spinner 0.7s linear infinite;
+  margin-top: 30px;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
 }
