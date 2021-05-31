@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+html {
+  font-size: 62.5%;
+  font-family: "Roboto";
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #141414;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.logo {
+  color: #21eb00;
+}
+
+.container-reiniciar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #21eb00;
+  text-align: center;
+}
+
+.botao {
+  color: #141414;
+  font-size: 3rem;
+}
+
+.botao:hover {
+  color: white;
+}
+
+.container-contador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.countdown {
+  display: none;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.time h2 {
+  margin: 0 0 5px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.tempos {
+  color: #e6e5e5;
+  font-size: 5rem;
+}
+
+.abaixo-tempos {
+  font-size: 2rem;
+  color: #21eb00;
+}
+
+/* INDEX HTML */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 75px auto;
+  line-height: 80px;
+}
+
+.content h1 {
+  color: #21eb00;
+  font-size: 40px;
+}
+
+.content label {
+  color: #e6e5e5;
+  font-size: 16px;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.content form button {
+  padding: 15px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #21eb00;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  font-size: 25px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.content form button:hover {
+  background-color: #21eb00;
+  color: #ffffff;
+}
+
+.content input {
+  margin-bottom: 30px;
+  padding: 15px;
+  width: 100%;
+  border-radius: 20px;
+  outline: 0;
+  background-color: #2f2e2e;
+  border: none;
+  color: WHITE;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 10px solid #21eb00;
+  border-radius: 50%;
+  border-top-color: transparent;
+  margin: 0 auto;
+  animation: spinner 0.7s linear infinite;
+  margin-top: 30px;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

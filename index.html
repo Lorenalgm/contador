@@ -1,4 +1,25 @@
-Contador
-Informe uma data
-DD/MM/AAAA
-Iniciar contagem
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/ios/452/alarm-clock--v1.png"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h1>Contador</h1>
+            <form action="/contador.html">
+                <label for="data">Insira uma data</label>
+                <input type="date" name="data" id="data" placeholder="DD/MM/AAAA" required/>
+                <button id="botaoCronometro">Iniciar Contagem</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

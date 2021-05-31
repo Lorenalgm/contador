@@ -1,4 +1,54 @@
-Contador
-Reiniciar
-Faltam
-Dias Horas Minutos Segundos
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://img.icons8.com/ios/452/alarm-clock--v1.png"/>
+  <title>Contador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header class="header-container">
+    <div>
+      <a href="#" class="logo">Contador</a>
+    </div>
+    <div class="container-reiniciar">
+      <a href="index.html" class="botao">Reiniciar</a>
+    </div>
+  </header>
+
+  <section class="container-contador">
+    <p class="tempos">Faltam</p>
+  </section>
+
+  <section class="countdown" id="countdown">
+    <div class="time">
+      <h2 class="tempos" id="dias">00</h2>
+      <small class="abaixo-tempos">dias</small>
+    </div>
+
+    <div class="time">
+      <h2 class="tempos" id="horas">00</h2>
+      <small class="abaixo-tempos">horas</small>
+    </div>
+
+    <div class="time">
+      <h2 class="tempos" id="minutos">00</h2>
+      <small class="abaixo-tempos">minutos</small>
+    </div>
+
+    <div class="time">
+      <h2 class="tempos" id="segundos">00</h2>
+      <small class="abaixo-tempos">segundos</small>
+    </div>
+  </section>
+
+  <div class="spinner" id="spinner"></div>
+  
+
+  <script src="script.js"></script>
+
+</body>
+</html>
